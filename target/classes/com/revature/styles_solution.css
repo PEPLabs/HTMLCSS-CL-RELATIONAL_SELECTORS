@@ -1,0 +1,21 @@
+#parent > div {
+    background-color: lightblue;
+}
+
+/* h2 elements within #parent */
+#parent h2 {
+    font-size: 20px;
+    color: green;
+}
+
+/* #sibling element styles */
+#sibling {
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+/* General sibling elements styles */
+#general-sibling, #general-sibling2 {
+    background-color: lightgray;
+    margin-top: 10px;
+}
