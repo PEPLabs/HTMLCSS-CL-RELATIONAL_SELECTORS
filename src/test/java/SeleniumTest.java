@@ -25,7 +25,7 @@ public class SeleniumTest {
        System.setProperty("webdriver.chrome.driver", "driver/chromedriver");//linux_64
 
         // Get file
-        File file = new File("src/main/java/com/revature/styles.css");
+        File file = new File("src/main/java/com/revature/index.html");
         String path = "file://" + file.getAbsolutePath();
 
         
