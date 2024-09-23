@@ -1,0 +1,46 @@
+/* 
+Explanations:
+1. Child Selector (`>`): Target elements that are direct children of a specified parent element.
+2. Descendant Selector (whitespace): Target elements that are descendants of a specified parent element, regardless of the nesting level.
+3. Adjacent Sibling Selector (`+`): Target an element that is immediately preceded by a specific sibling element.
+4. General Sibling Selector (`~`): Target elements that are siblings of a specified element, regardless of their position in the HTML structure.
+ */
+
+/* 
+User Stories for CSS:
+1. As a user, I want the child elements (#child1 and #child2) within the #parent element to have a different background color from their parent.
+    - Child elements should have a background color of lightblue (#ADD8E6).
+
+2. As a user, I want the h2 elements within the #parent element to have a specific font size and color.
+    - h2 elements should have a font size of 20px and a color of green (#008000).
+
+3. As a user, I want the #sibling element to have a border and a different background color.
+    - The #sibling element should have a border of 1px solid black (#000000) and a background color of yellow (#FFFF00).
+
+4. As a user, I want the #general-sibling and #general-sibling2 elements to have a different background color and margin between them.
+    - Both #general-sibling and #general-sibling2 elements should have a background color of lightgray (#D3D3D3).
+    - There should be a margin-top of 10px between these elements.
+
+/* TODO: Add CSS code here to fulfill the above mentioned user stories. */
+
+#parent > div {
+    background-color: lightblue;
+}
+
+/* h2 elements within #parent */
+#parent h2 {
+    font-size: 20px;
+    color: green;
+}
+
+/* #sibling element styles */
+#sibling {
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+/* General sibling elements styles */
+#general-sibling, #general-sibling2 {
+    background-color: lightgray;
+    margin-top: 10px;
+}
