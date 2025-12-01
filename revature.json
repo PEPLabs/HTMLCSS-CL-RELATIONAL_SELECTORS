@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SeleniumTest.java",
+      "testCases": [
+        {
+          "methodName": "testRelationalSelectors",
+          "label": "Verify CSS relational selectors styling",
+          "description": "Uses Selenium WebDriver to validate that child, descendant, and sibling CSS selectors apply the correct styles. It checks background colors, font sizes, text colors, borders, and margins for elements selected via relational CSS selectors such as child (>) and sibling selectors."
+        }
+      ]
+    }
+  ]
+}
